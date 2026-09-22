@@ -3,6 +3,44 @@ using System;
 
 class Program
 {
+    #region Theo Questions
+    /*
+     
+Q1) Abstraction
+
+a) Abstraction means hiding the complex details and showing only
+   what the user really needs. It focuses on what the object does
+   not how it does it. In C# we use abstract classes and interfaces.
+
+b) It is one of the four pillars because:
+   - It makes code simpler by hiding details.
+   - It lets us write code that works with many types.
+   - It defines a common shape that many classes can follow.
+   - It helps us change the implementation later without
+     breaking the rest of the program.
+
+
+Q2) Abstract Class vs Interface
+
+a) Differences:
+   - Abstract class can have normal methods and fields, but a class
+     can inherit from only one abstract class.
+   - Interface has only method signatures (no fields), but a class
+     can implement many interfaces.
+   - Abstract class is used for "is a" relation.
+   - Interface is used for "can do" relation.
+
+b) I use an interface when:
+   - I want many different classes to share the same ability.
+   - I need to implement more than one type.
+   - I only need a contract without any shared code.
+
+c) A class cannot inherit from more than one abstract class.
+   But it can implement many interfaces.
+*/
+     
+     
+    #endregion
     static void Main(string[] args)
     {
         DeliveryAddress addr1 = new DeliveryAddress("Cairo", "Tahrir", 15);
