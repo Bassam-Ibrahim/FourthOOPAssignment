@@ -9,7 +9,7 @@ namespace FourthOOPAssignment
         string GetTrackingStatus();
     }
 
-    public interface IInsurable
+    public interface IInsurable/* وانا برفع الانترفيس ده مكنتش قولت اني رافع ده معاه */
     {
         decimal CalculateInsurance();
     }
